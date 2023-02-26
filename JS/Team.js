@@ -1,4 +1,5 @@
 window.onload=function(){
+    $(".loader_wrapper").fadeOut("slow");
     button=document.querySelectorAll("nav>ul>li")
     nav=document.querySelector('nav>ul')
     for(let i=0;i<button.length;i++){

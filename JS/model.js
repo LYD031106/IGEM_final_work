@@ -1,4 +1,5 @@
 window.onload=function(){
+    $(".loader_wrapper").fadeOut("slow");
     /*导航栏*/
     button=document.querySelectorAll("nav>ul>li")
     nav=document.querySelector('nav>ul')
